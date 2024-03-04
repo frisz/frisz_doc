@@ -1,7 +1,7 @@
 # Documentatios techniques de l'application mobile Frisz 
 le contenu de la documentation 
 
-```HTML
+```HTML {.code-block}
 
 <div [ngClass]="{enregistreVoice: enreVoice}" class="parentFichier" *ngIf="showVoice" style="width:30rem">
 			    				<span (click)="abortSendFile()" class="mdi mdi-alpha-x-circle"></span>
