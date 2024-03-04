@@ -1,3 +1,25 @@
-h1{
-    color: red;
+.code-block {
+    background-color: #000;
+    color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+    overflow-x: auto;
+}
+
+.code-block pre {
+    counter-reset: line;
+}
+
+.code-block pre code {
+    counter-increment: line;
+    padding-left: 2em;
+    display: block;
+}
+
+.code-block pre code:before {
+    content: counter(line);
+    display: inline-block;
+    width: 2em;
+    margin-right: 1em;
+    color: #ccc;
 }
