@@ -4,11 +4,12 @@ body{
   .container{
     width: 80%;
     margin: 0rem auto;
-    
+    border: 1px solid #eff0f2;
+    border-radius: 3px;
   }
   
   .titre1{
-    margin: 1rem 0rem;
+    margin: 1rem 8.9rem;
     border: 1px solid #eff0f2;
     border-radius: 3px;
     text-align: center;
