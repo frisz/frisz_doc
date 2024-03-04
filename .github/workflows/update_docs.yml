@@ -1,0 +1,26 @@
+name: Update Documentation
+
+on:
+  push:
+    branches:
+      - main  # Remplacez "main" par le nom de votre branche principale si nécessaire
+
+jobs:
+  build:
+    runs-on: windows-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v2
+
+      - name: Convert Markdown to HTML/CSS
+        run: |
+          pandoc -s -o output.html input.md
+          # Ajoutez ici toute commande supplémentaire pour le traitement des fichiers HTML/CSS
+
+      - name: Deploy to GitHub Pages
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: .
+          publish_branch: gh-pages
