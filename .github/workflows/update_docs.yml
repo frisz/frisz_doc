@@ -13,10 +13,6 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v2
 
-      - name: Convert Markdown to HTML/CSS
-        run: |
-          pandoc -s -o index.html documentation.md
-          # Ajoutez ici toute commande supplémentaire pour le traitement des fichiers HTML/CSS
 
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
