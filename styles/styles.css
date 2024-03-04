@@ -1,25 +1,26 @@
-.code-block {
-    background-color: #000;
-    color: #fff;
-    padding: 10px;
-    border-radius: 5px;
-    overflow-x: auto;
-}
+/* Styles pour la coloration syntaxique */
 
+/* Appliquer les styles au bloc de code */
 .code-block pre {
-    counter-reset: line;
+    background-color: #272822; /* Couleur de fond pour le bloc de code */
+    color: #f8f8f2; /* Couleur du texte */
+    padding: 10px; /* Espacement interne */
+    border-radius: 5px; /* Bord arrondi */
+    overflow-x: auto; /* Défilement horizontal si nécessaire */
 }
 
+/* Appliquer les styles au code lui-même */
 .code-block pre code {
-    counter-increment: line;
-    padding-left: 2em;
-    display: block;
+    font-family: Consolas, monospace; /* Police de caractère */
+    font-size: 14px; /* Taille de la police */
+    line-height: 1.5; /* Hauteur de ligne */
 }
 
+/* Numérotation des lignes */
 .code-block pre code:before {
-    content: counter(line);
-    display: inline-block;
-    width: 2em;
-    margin-right: 1em;
-    color: #ccc;
+    content: counter(line); /* Contenu du compteur (numéro de ligne) */
+    display: inline-block; /* Affichage en ligne */
+    width: 2em; /* Largeur pour le numéro de ligne */
+    margin-right: 1em; /* Marge à droite du numéro de ligne */
+    color: #ccc; /* Couleur du numéro de ligne */
 }
