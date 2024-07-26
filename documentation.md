@@ -2,7 +2,7 @@
 
 ## 1. Introduction
 ### Nom de l'application
-> Nom de l'application
+> Frisz
 
 ### Description
 > Une brève description de l'application, ses fonctionnalités principales et son objectif.
