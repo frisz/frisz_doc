@@ -5,7 +5,7 @@
 > Frisz
 
 ### Description
-> Une brève description de l'application, ses fonctionnalités principales et son objectif.
+> Rejoignez la communauté des acteurs du sport, créez des relations, développez votre activité sportive, mettez en avant vos expériences sportives sur FRISZ. Nous facilitons la mise en relation entre les sportifs et professionnels du sport, nous permettons de développer votre activité en lien avec le sport, et donc d'élever à un niveau supérieur votre façon de travailler. Que vous soyez sportif, agent, médecin du sport, préparateur physique, coach, équipementier sportif, nutritionniste, journaliste, club, etc. créez des liens professionnels et/ou amicaux sur une plateforme qui vous est spécialement dédiée.
 
 ### Technologies utilisées
 - **Flutter** pour le développement mobile
