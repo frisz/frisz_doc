@@ -1,8 +1,7 @@
-# Documentation Technique de l'Application Mobile
-
 ## 1. Introduction
 >Rejoignez la communauté des acteurs du sport, créez des relations, développez votre activité sportive, mettez en avant vos expériences sportives sur FRISZ. Nous facilitons la mise en relation entre les sportifs et professionnels du sport, nous permettons de développer votre activité en lien avec le sport, et donc d'élever à un niveau supérieur votre façon de travailler. Que vous soyez sportif, agent, médecin du sport, préparateur physique, coach, équipementier sportif, nutritionniste, journaliste, club, etc. créez des liens professionnels et/ou amicaux sur une plateforme qui vous est spécialement dédiée.
-### Nom de l'application
+
+#### Nom de l'application
 > Frisz
 
 ### Description
