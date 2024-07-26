@@ -11,6 +11,9 @@
     <h1 class="titre1">Documentation
         techniques de l’application Frisz</h1>
     <div class="container">
+        <h1
+        id="documentation-technique-de-lapplication-mobile">Documentation
+        Technique de l’Application Mobile</h1>
         <h2 id="introduction">1. Introduction</h2>
         <blockquote>
         <p>Rejoignez la communauté des acteurs du sport, créez des
@@ -25,7 +28,7 @@
         professionnels et/ou amicaux sur une plateforme qui vous est
         spécialement dédiée.</p>
         </blockquote>
-        <h4 id="nom-de-lapplication">Nom de l’application</h4>
+        <h3 id="nom-de-lapplication">Nom de l’application</h3>
         <blockquote>
         <p>Frisz</p>
         </blockquote>
@@ -49,19 +52,36 @@
         </ul>
         <h3 id="public-cible">Public cible</h3>
         <blockquote>
-        <p>Décrire les utilisateurs finaux de l’application.</p>
+        <p>Les utilisateurs finaux de l’application sont les
+        professionnels du sport, les sportifs, les coachs, les agents de
+        médecine du sport, les préparateurs physiques, les équipements,
+        les nutritionnistes, les journalistes, les clubs, etc.</p>
         </blockquote>
         <h2 id="architecture-de-lapplication">2. Architecture de
         l’application</h2>
         <h3 id="architecture-générale">Architecture générale</h3>
-        <blockquote>
-        <p>Décrire l’architecture globale (par exemple, architecture
-        MVC, MVP, MVVM).</p>
-        </blockquote>
+        <p>L’application Frisz utilise une architecture MVVM
+        (Model-View-ViewModel) pour séparer la logique de présentation
+        de l’interface utilisateur. Cette architecture facilite la
+        gestion de l’état et la maintenance de l’application.</p>
+        <ul>
+        <li><strong>Model</strong> : Représente les données de
+        l’application et la logique métier. Par exemple, les modèles
+        définissent la structure des éléments comme les
+        utilisateurs.</li>
+        <li><strong>View</strong> : Interface utilisateur composée de
+        Widgets Flutter. Les vues observent les changements de l’état
+        des données exposées par le ViewModel.</li>
+        <li><strong>ViewModel</strong> : Contient la logique de
+        présentation et la gestion de l’état. Les ViewModels exposent
+        les données du Model via des observables ou des notifiers, en
+        utilisant des providers pour gérer l’état et la logique de
+        présentation.</li>
+        </ul>
         <h3 id="diagramme-darchitecture">Diagramme d’architecture</h3>
         <blockquote>
-        <p>Inclure un diagramme montrant les différentes couches et leur
-        interaction.</p>
+        <p>Inclure un diagramme montrant les différentes couches (Model,
+        View, ViewModel) et leurs interactions.</p>
         </blockquote>
         <h3 id="modules">Modules</h3>
         <blockquote>
@@ -90,7 +110,8 @@
         dépendances</h3>
         <p>```yaml dependencies: flutter: sdk: flutter firebase_core:
         ^x.x.x firebase_auth: ^x.x.x cloud_firestore: ^x.x.x
-        firebase_storage: ^x.x.x # Autres dépendances</p>
+        firebase_storage: ^x.x.x provider: ^x.x.x # Autres
+        dépendances</p>
     </div>
 <Script src="scripts/bootstrap.bundle.min.js"></Script>
 </body>
