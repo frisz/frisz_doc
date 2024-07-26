@@ -1,11 +1,12 @@
 # Documentation Technique de l'Application Mobile
 
 ## 1. Introduction
+>Rejoignez la communauté des acteurs du sport, créez des relations, développez votre activité sportive, mettez en avant vos expériences sportives sur FRISZ. Nous facilitons la mise en relation entre les sportifs et professionnels du sport, nous permettons de développer votre activité en lien avec le sport, et donc d'élever à un niveau supérieur votre façon de travailler. Que vous soyez sportif, agent, médecin du sport, préparateur physique, coach, équipementier sportif, nutritionniste, journaliste, club, etc. créez des liens professionnels et/ou amicaux sur une plateforme qui vous est spécialement dédiée.
 ### Nom de l'application
 > Frisz
 
 ### Description
-> Rejoignez la communauté des acteurs du sport, créez des relations, développez votre activité sportive, mettez en avant vos expériences sportives sur FRISZ. Nous facilitons la mise en relation entre les sportifs et professionnels du sport, nous permettons de développer votre activité en lien avec le sport, et donc d'élever à un niveau supérieur votre façon de travailler. Que vous soyez sportif, agent, médecin du sport, préparateur physique, coach, équipementier sportif, nutritionniste, journaliste, club, etc. créez des liens professionnels et/ou amicaux sur une plateforme qui vous est spécialement dédiée.
+> Frisz est une plateforme mobile qui permet aux professionnels du sport de se connecter et de partager leurs expériences sportives. Elle permet également aux sportifs de se connecter et de partager leurs activités sportives. Les utilisateurs peuvent également créer des profils professionnels et partager des informations sur leur activité sportive. L'application est conçue pour être utilisée par les professionnels du sport, les sportifs, les coachs, les agents de médecine du sport, les préparateurs physiques, les équipements, les nutritionnistes, les journalistes, les clubs, etc.  
 
 ### Technologies utilisées
 - **Flutter** pour le développement mobile
